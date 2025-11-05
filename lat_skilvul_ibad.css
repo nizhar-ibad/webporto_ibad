@@ -1,0 +1,68 @@
+.header{
+   background-color: aqua; 
+   height: 100px;
+   width: 1350px;
+    
+}
+.pasep{
+color: white;
+text-align: center;
+font-size: 50px;
+padding:10px ;
+
+}
+.body{
+   background-color: bisque;
+   height: 740px;
+   width: 200px;
+   display: flex;
+  
+}.anto{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}.pertengahan{
+    background-color: yellow;
+    height:700px;
+    width:1350px ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+   padding: 20px;
+}
+.kotaktengah{
+ display: flex;
+ flex-direction: row;
+ 
+}
+.kaki{
+    background-color:green; 
+   height: 150px;
+   width: 1350px;
+   display: flex ;
+  
+}
+.jj{
+    color: white;
+text-align: center;
+font-size: 30px;
+position: fixed;
+width:100%;
+padding: 15px;
+
+}
+.rojali{
+    background-color: white;
+    height: 300px;
+    width: 300px; 
+      
+}
+.MANTUL{
+   color: black;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+   font-size: 20px;
+   text-align: center;
+}
+
+
+   

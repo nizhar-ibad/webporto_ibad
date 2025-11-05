@@ -1,0 +1,26 @@
+
+h1:hover{
+ background-color: black;
+ color: white;
+ transition:ease 0.5s;
+}
+p:nth-child(2){
+  background-color:aqua ;  
+}
+p::before{
+    content: "mantap "; 
+}
+h2::selection{
+    color: azure;
+    background: black;
+
+}
+p::first-letter{
+font: size 50px; ;
+color:blueviolet
+}
+p{
+ background-color:black ;
+ color: white; 
+ font: size 40px; ;  
+}
