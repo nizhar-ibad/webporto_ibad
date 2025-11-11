@@ -373,6 +373,7 @@ body {
   background: rgb(245, 243, 243);
   color: rgb(14, 7, 7);
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -380,9 +381,7 @@ body {
 .contact-box {
   background: transparent;
   padding: 25px;
-  width: 350px;
   border-radius: 12px;
-  margin-right: 300px;
   margin-top: 80px;
 }
 .contact-box h2 {
@@ -398,7 +397,7 @@ body {
   border-radius: 6px;
 }
 .contact-box button {
-  width: 100%;
+  width: 98%;
   padding: 10px;
   background: white;
   color: black;
@@ -434,7 +433,7 @@ body {
 .title-responsive {
   display: none;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .title {
     display: none;
   }
@@ -494,10 +493,10 @@ menu ul {
   color: gold;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .header {
     gap: 100px;
-    width: 300px;
+    width: 350px;
     /* height: 100vh; */
   }
   .hero {
@@ -580,24 +579,66 @@ menu ul {
     margin-top: -10px;
     font-size: 30px;
     font-weight: 500;
-    
   }
   .skills-kotak {
     display: grid;
     grid-template-columns: auto;
-   
   }
-  .skills-box{
+  .skills-box {
     width: 100px;
-    height:100px;
+    height: 100px;
     margin-bottom: 50px;
-    margin-left: -120px;
-}
-.skills-box img{
-  width: 100px;
-  height: 100px;
-}
-.skills-box p{
- font-size: 10px; 
-}
+  }
+  .skills-box img {
+    width: 100px;
+    height: 100px;
+  }
+  .skills-box p {
+    font-size: 10px;
+  }
+  .works {
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    justify-content: center;
+  }
+  .title-works p {
+    font-size: 30px;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  .box-utama {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .box {
+    height: 100px;
+    width: 100px;
+  }
+  .box img {
+    height: 90px;
+    width: 90px;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-box {
+    background: transparent;
+    padding: 25px;  
+    width: 200px;
+    border-radius: 12px;
+    margin-top: 80px;
+  }
+   .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .img img{
+     height:0%;
+     width: 0%;
+
+    }
 }
