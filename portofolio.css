@@ -533,19 +533,71 @@ menu ul {
     width: 200px;
     height: auto;
   }
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+  }
   .about {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 150vh;
+    justify-content: center;
+    gap: 7px;
   }
   .about-section {
     display: grid;
     grid-template-columns: auto;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
   }
   .about-box {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
   }
+  .about-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .about-title p {
+    font-size: 22px;
+    justify-content: center;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    justify-content: center;
+  }
+  .skills-title p {
+    margin-top: -10px;
+    font-size: 30px;
+    font-weight: 500;
+    
+  }
+  .skills-kotak {
+    display: grid;
+    grid-template-columns: auto;
+   
+  }
+  .skills-box{
+    width: 100px;
+    height:100px;
+    margin-bottom: 50px;
+    margin-left: -120px;
+}
+.skills-box img{
+  width: 100px;
+  height: 100px;
+}
+.skills-box p{
+ font-size: 10px; 
+}
 }
